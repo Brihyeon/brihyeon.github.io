@@ -12,7 +12,7 @@ window.SITE_DATA = {
   department: "Department of Mechanical Engineering",
   laboratory: "Adaptive Robotics & Technology Lab",
   location: ["College Station, Texas", "United States"],
-  photo: "assets/dd.jpeg",
+  photo: "assets/Profile.jpeg",
   introduction: [
     "Hello, I’m Sanghyeon Nam. I’m a robotics researcher at Texas A&M University, working on autonomous navigation and decision-making for mobile robots in challenging real-world environments.",
     "My research focuses on reliable perception, planning, and control under sensing uncertainty."
@@ -44,18 +44,23 @@ window.SITE_DATA = {
   // The two entries below are EXAMPLES — replace their text and SVG images.
   news: [
     {
-      id: "website-launch",
+      id: "james-cain-award-2026",
       date: "Oct 2026",
-      title: "A home for my robotics research",
-      excerpt: "A place to share ongoing projects, research notes, publications, and lab updates.",
-      image: "assets/news-website-demo.svg", // Example: "assets/news-conference.jpg"
-      imageAlt: "Illustrative website interface, demo image",
-      imageCaption: "Demo illustration — replace with your own event or project photo.",
+      title: "Selected as a Recipient of the James J. Cain ’51 Graduate Student Award!",
+      excerpt: "Honored to receive the James J. Cain ’51 Graduate Student Award from Texas A&M University in recognition of my graduate achievements.",
+
+      image: "assets/award.jpeg",
+      imageAlt: "James J. Cain ’51 Graduate Student Award",
+      imageCaption: "James J. Cain ’51 Graduate Student Award at Texas A&M University.",
+
       content: [
-        "I’m putting together a personal website to document my research in autonomous robotics and share updates in one place.",
-        "The news section will include research milestones, conference trips, experiments, and project releases. Clickable thumbnails lead to dedicated posts where I can explain the details and attach multiple photos.",
-        "This is demonstration content. I’ll replace it with my own posts and pictures as the website develops."
+        "I am honored to have been selected as a recipient of the James J. Cain ’51 Graduate Student Award at Texas A&M University.",
+
+        "Receiving this award is a meaningful milestone in my Ph.D. journey. It is especially encouraging to have my efforts and contributions recognized as I continue pursuing research in autonomous robotics, perception, and intelligent navigation systems.",
+
+        "I sincerely appreciate the guidance and support of my advisor, collaborators, and colleagues throughout my research journey. This recognition further motivates me to continue advancing robotics research and contributing to the field."
       ],
+
       gallery: []
     },
     {
@@ -85,18 +90,98 @@ window.SITE_DATA = {
       ]
     }
   ],
+  
   publications: [
+
+    // %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    // 1. 2026
+    // %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
     {
-      title: "Learning When to Trust Geometry: Reliability-Aware MPC for LiDAR-IMU Under-Canopy Navigation",
-      authors: "Sanghyeon Nam",
-      venue: "Research manuscript",
+      title: "Offline Robust Model Predictive Control for Autonomous Vehicle Steering Systems Using LMI-Based Optimization",
+      authors: "Nguyen Ngoc Nam, Sanghyeon Nam, Hung Duy Nguyen, Sooyoung Kim, Kyoungseok Han",
+      venue: "International Journal of Robust and Nonlinear Control",
       year: "2026",
-      type: "Manuscript",
-      description: "Reliable agricultural robot navigation with geometry-based perception and uncertainty-aware model predictive control.",
-      paperUrl: "", // Add a link only when a paper is publicly available
-      codeUrl: "", // Optional
-      projectUrl: "" // Optional
+      type: "Journal",
+      description: "An offline robust MPC approach using LMI-based optimization to improve autonomous vehicle steering performance under model uncertainties while reducing online computational requirements.",
+      paperUrl: "https://doi.org/10.1002/rnc.70422",
+      codeUrl: "",
+      projectUrl: ""
+    },
+
+    // %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    // 2. 2025
+    // %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+    {
+      title: "Safety-Aware Robust Model Predictive Control for Robotic Arms in Dynamic Environments",
+      authors: "Sanghyeon Nam, Dongmin Kim, Seung-Hwan Choi, Chang-Hyun Kim, Hyoeun Kwon, Hiroaki Kawamoto, Suwoong Lee",
+      venue: "2025 IEEE International Conference on Automation Science and Engineering (CASE)",
+      year: "2025",
+      type: "Conference",
+      description: "A safety-aware robust MPC framework for robotic manipulators operating around dynamic obstacles, integrating nominal motion control with robust safety constraints.",
+      paperUrl: "https://doi.org/10.1109/CASE58245.2025.11164040",
+      codeUrl: "",
+      projectUrl: ""
+    },
+
+    {
+      title: "Hierarchical Climate Control Framework for Electric Vehicles Considering Door-Opening Event",
+      authors: "Sanghyeon Nam, Hyejin Lee, Youngki Kim, Kyoung Hyun Kwak, Kyoungseok Han",
+      venue: "IEEE Transactions on Intelligent Vehicles",
+      year: "2025",
+      type: "Journal",
+      description: "A hierarchical nonlinear MPC framework for electric vehicle thermal management that accounts for door-opening disturbances and improves cabin temperature regulation and passenger comfort.",
+      paperUrl: "https://doi.org/10.1109/TIV.2024.3512476",
+      codeUrl: "",
+      projectUrl: ""
+    },
+
+    // %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    // 3. 2024
+    // %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+    {
+      title: "Hierarchical Climate Control Strategy for Electric Vehicles with Door-Opening Consideration",
+      authors: "Sanghyeon Nam, Hyejin Lee, Youngki Kim, Kyoung Hyun Kwak, Kyoungseok Han",
+      venue: "2024 IEEE Intelligent Vehicles Symposium (IV)",
+      year: "2024",
+      type: "Conference",
+      description: "A hierarchical nonlinear MPC strategy for electric vehicle climate control, incorporating door-opening disturbances to reduce cabin temperature variations and improve thermal recovery.",
+      paperUrl: "https://doi.org/10.1109/IV55156.2024.10588432",
+      codeUrl: "",
+      projectUrl: ""
+    },
+
+    {
+      title: "Design and Implementation of Comprehensive Thermal Management Verification Model for Electric Vehicles Operating in Cold Climates",
+      authors: "Sanghyeon Nam, Chulwoo Moon, Suyong Park, Byeongtae Lee, Kyoungseok Han",
+      venue: "International Journal of Automotive Technology",
+      year: "2024",
+      type: "Journal",
+      description: "Development and experimental validation of an integrated electric vehicle thermal management simulation model for evaluating heating and battery thermal control strategies under cold-weather conditions.",
+      paperUrl: "https://doi.org/10.1007/s12239-024-00009-7",
+      codeUrl: "",
+      projectUrl: ""
+    },
+
+    // %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    // 4. 2022
+    // %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+    {
+      title: "Evaluating the Efficiency of Connected and Automated Buses Platooning in Mixed Traffic Environment",
+      authors: "Suyong Park, Sanghyeon Nam, Gokul S. Sankar, Kyoungseok Han",
+      venue: "Electronics",
+      year: "2022",
+      type: "Journal",
+      description: "An MPC-based speed planning approach for connected and automated electric bus platoons, evaluating energy efficiency under mixed traffic conditions involving human-driven vehicles.",
+      paperUrl: "https://doi.org/10.3390/electronics11193231",
+      codeUrl: "",
+      projectUrl: ""
     }
+
   ],
+
   footer: "© 2026 Sanghyeon Nam"
 };
