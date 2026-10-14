@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark light">
+  <meta name="theme-color" content="#1b1b1b">
+  <meta name="description" content="Sanghyeon Nam — robotics researcher at Texas A&M University. Research, news, and publications.">
+  <title>Sanghyeon Nam · Robotics Researcher</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="site-data.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#about">Skip to content</a>
+  <header class="site-header">
+    <nav class="navigation shell" aria-label="Main navigation">
+      <a href="#about" class="nav-link is-active" data-nav="about" aria-current="page">about</a>
+      <a href="#publications" class="nav-link" data-nav="publications">publications</a>
+      <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to light theme" title="Toggle color theme">
+        <svg class="sun-icon" viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"></path></svg>
+        <svg class="moon-icon" viewBox="0 0 24 24" width="25" height="25" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.2 15.5A8.8 8.8 0 0 1 8.5 3.8 8.8 8.8 0 1 0 20.2 15.5Z"></path></svg>
+      </button>
+    </nav>
+  </header>
+
+  <main class="shell">
+    <section class="about-section" id="about" aria-labelledby="name-heading">
+      <h1 class="hero-title" id="name-heading"><strong id="first-name">Sanghyeon</strong> <span id="last-name">Nam</span></h1>
+
+      <div class="about-grid">
+        <div class="about-copy">
+          <div id="intro-copy" class="intro-copy"></div>
+          <div class="interests">
+            <p class="interests-label">My research interests are</p>
+            <ul id="research-interests"></ul>
+          </div>
+          <p class="advisor" id="advisor" hidden></p>
+          <div id="social-links" class="social-links" aria-label="Profile links"></div>
+        </div>
+
+        <aside class="profile-card" aria-label="Profile information">
+          <div class="portrait-wrapper">
+            <img id="profile-photo" src="assets/portrait-placeholder.svg" alt="Profile portrait placeholder" width="340" height="340">
+          </div>
+          <div class="profile-meta" id="profile-meta">
+            <span>Texas A&amp;M University</span>
+            <span>College Station, Texas</span>
+          </div>
+        </aside>
+      </div>
+
+      <section class="news-section" aria-labelledby="news-heading">
+        <h2 class="section-heading" id="news-heading">news</h2>
+        <div class="news-list" id="news-list"></div>
+      </section>
+    </section>
+
+    <section class="publications-section" id="publications" aria-labelledby="publications-heading">
+      <div class="section-rule"></div>
+      <h2 class="section-heading" id="publications-heading">publications</h2>
+      <p class="section-intro">Selected papers and current research.</p>
+      <div class="publication-list" id="publication-list"></div>
+    </section>
+
+    <article id="news-post-page" class="news-post-page" aria-live="polite" hidden></article>
+  </main>
+
+  <footer class="site-footer shell">
+    <span id="footer-text">© 2026 Sanghyeon Nam</span>
+    <a href="#about">back to top <span aria-hidden="true">↑</span></a>
+  </footer>
+</body>
+</html>

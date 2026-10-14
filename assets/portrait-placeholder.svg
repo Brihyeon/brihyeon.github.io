@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-labelledby="title desc">
+<title id="title">Profile photo placeholder</title><desc id="desc">A subtle portrait illustration with the initials SN.</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#303a3e"/><stop offset="1" stop-color="#151c20"/></linearGradient><linearGradient id="circle" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#56808a"/><stop offset="1" stop-color="#263f48"/></linearGradient></defs>
+<rect width="600" height="600" fill="url(#bg)"/>
+<g opacity=".15" stroke="#bddde5" fill="none"><path d="M0 140H600M0 280H600M0 420H600M140 0V600M280 0V600M420 0V600"/><circle cx="460" cy="110" r="175"/><circle cx="460" cy="110" r="245"/></g>
+<circle cx="300" cy="268" r="130" fill="url(#circle)"/><path d="M115 600v-52c0-104 83-177 185-177s185 73 185 177v52" fill="#45636c"/>
+<path d="M220 270c12 88 52 116 80 116s68-28 80-116" fill="#45636c"/><circle cx="300" cy="233" r="92" fill="#6c929c"/>
+<path d="M207 229c3-71 38-115 93-115 62 0 95 49 95 115-18-8-32-25-41-47-35 32-82 46-147 47" fill="#21353d"/>
+<rect x="188" y="464" width="224" height="74" rx="37" fill="#152329" fill-opacity=".74"/>
+<text x="300" y="515" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="47" letter-spacing="9" fill="#e5edf0">SN</text>
+</svg>
