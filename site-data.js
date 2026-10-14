@@ -5,8 +5,8 @@
 */
 window.SITE_DATA = {
   name: "Sanghyeon Nam",
-  highlightName: "Sanghyeon",
-  remainingName: "Nam",
+  highlightName: "Sanghyeon Nam",
+  remainingName: "",
   role: "Robotics & Control Engineer",
   affiliation: "Texas A&M University",
   department: "Department of Mechanical Engineering",
