@@ -64,32 +64,56 @@ window.SITE_DATA = {
 
       gallery: []
     },
+    
+
     {
-      id: "field-robotics-notes",
-      date: "Sep 2026",
-      title: "Field robotics research notes",
-      excerpt: "Exploring robust LiDAR–IMU navigation and uncertainty-aware control in agricultural settings.",
-      image: "assets/news-robot-demo.svg", // Example: "assets/corn-robot.jpg"
-      imageAlt: "Stylized field robot between crop rows, demo illustration",
-      imageCaption: "Demo illustration, not an actual experiment photo.",
+      id: "tamu-phd-start",
+      date: "Aug 2025",
+      title: "Starting My Ph.D. at Texas A&M University",
+      excerpt: "Excited to begin my Ph.D. journey in Mechanical Engineering at Texas A&M University!",
+
+      image: "assets/TAMUlogo.png",
+      imageAlt: "Texas A&M University",
+      imageCaption: "Beginning a new chapter at Texas A&M University.",
+
       content: [
-        "My research interests include navigation in environments where visibility, geometry, and sensor reliability can change substantially.",
-        "A long-form post can describe a field test, the research motivation, experimental setup, and findings. You can add as many paragraphs as needed in the content array.",
-        "The gallery below demonstrates how several images can be included in one post. Replace the sample illustrations with photos of your own experiments."
+        "In August 2025, I began my Ph.D. in Mechanical Engineering at Texas A&M University under the supervision of Dr. Kiju Lee.",
+
+        "I am excited to explore new research opportunities in robotics, model predictive control, and intelligent autonomous systems. Looking forward to the journey ahead!"
       ],
+
+      gallery: []
+    },
+
+
+
+    {
+      id: "kitech-farewell",
+      date: "Jul 2025",
+      title: "Wrapping Up My Time at KITECH",
+      excerpt: "Concluding a rewarding chapter as a researcher at the Korea Institute of Industrial Technology (KITECH).",
+
+      image: "assets/kitech.png",
+      imageAlt: "My time as a researcher at KITECH",
+      imageCaption: "Wrapping up my research journey at KITECH.",
+
+      content: [
+        "In July 2025, I concluded my time as a researcher at the Korea Institute of Industrial Technology (KITECH).",
+
+        "My experience at KITECH provided valuable opportunities to work on challenging robotics and control problems, collaborate with talented researchers, and grow both professionally and personally.",
+
+        "I am sincerely grateful to my colleagues and collaborators for their support, friendship, and the many memorable experiences we shared. I look forward to carrying these experiences into the next chapter of my research journey."
+      ],
+
       gallery: [
         {
-          src: "assets/news-robot-demo.svg",
-          alt: "Demo field robot illustration",
-          caption: "Gallery photo 1 — replace with an experiment image."
-        },
-        {
-          src: "assets/news-website-demo.svg",
-          alt: "Demo layout illustration",
-          caption: "Gallery photo 2 — replace with another image."
+          src: "assets/kitech_1.png",
+          alt: "Farewell dinner with my KITECH colleagues",
+          caption: "A memorable farewell dinner with my wonderful colleagues at KITECH. Thank you all for the great memories!"
         }
       ]
-    }
+    },
+
   ],
   
   publications: [
