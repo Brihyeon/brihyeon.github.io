@@ -14,7 +14,7 @@ window.SITE_DATA = {
   location: ["College Station, Texas", "United States"],
   photo: "assets/Profile.jpeg",
   introduction: [
-    "Hello, I’m Sanghyeon Nam, a Ph.D. student in Mechanical Engineering at Texas A&M University.",
+    "Howdy! I’m Sanghyeon Nam, a Ph.D. student in Mechanical Engineering at Texas A&M University.",
 
     "My research focuses on model predictive control (MPC) and intelligent control for robotic systems. I am particularly interested in combining model-based optimization with learning-based approaches to develop robust, adaptive, and reliable control strategies for mobile robots and robotic manipulators."
   ],
