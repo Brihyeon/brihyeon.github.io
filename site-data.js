@@ -63,7 +63,7 @@ researchHighlights: [
   news: [
     {
       id: "james-cain-award-2026",
-      date: "Oct 2026",
+      date: "Oct 08, 2026",
       title: "Selected as a Recipient of the James J. Cain ’51 Graduate Student Award!",
       excerpt: "Honored to receive the James J. Cain ’51 Graduate Student Award from Texas A&M University in recognition of my graduate achievements.",
 
@@ -81,6 +81,27 @@ researchHighlights: [
 
       gallery: []
     },
+
+
+    {
+      id: "guest-lecture-meen612",
+      date: "Sep 29, 2026",
+      title: "Guest Lecture for MEEN 612 at Texas A&M University",
+      excerpt: "Delivered a guest lecture introducing the fundamentals of Model Predictive Control (MPC) and its applications in robotics.",
+
+      image: "assets/guestlecture.jpeg",
+      imageAlt: "Guest lecture for MEEN 612 at Texas A&M University",
+      imageCaption: "Guest lecture on Model Predictive Control (MPC) for MEEN 612.",
+
+      content: [
+        "On September 29, 2026, I had the opportunity to deliver a guest lecture for MEEN 612 at Texas A&M University.",
+
+        "During the lecture, I introduced the fundamental concepts of Model Predictive Control (MPC) and shared examples of related research and applications in robotics."
+      ],
+
+      gallery: []
+    },
+
     
 
     {
