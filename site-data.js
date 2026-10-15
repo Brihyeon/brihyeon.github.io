@@ -152,6 +152,35 @@ researchHighlights: [
       ]
     },
 
+
+    {
+      id: "ifac-2023-eccv-finalist",
+      date: "Jul 12, 2023",
+      title: "Selected as a Finalist at IFAC World Congress 2023!",
+      excerpt: "Our team was selected as one of six finalists among 35 teams worldwide in the ECCV Control Benchmark for Sustainable Transport.",
+
+      image: "assets/ECCV.jpg",
+      imageAlt: "ECCV Control Benchmark finalist recognition at IFAC 2023",
+      imageCaption: "Finalist recognition at the IFAC World Congress 2023 in Yokohama, Japan.",
+
+      content: [
+        "On July 12, 2023, our team from Kyungpook National University was selected as one of six finalist teams among 35 participating teams worldwide in the ECCV Control Benchmark for Sustainable Transport at the IFAC World Congress 2023 in Yokohama, Japan.",
+
+        "The competition challenged participants to develop an efficient control system for a heavy-duty fuel-cell hybrid electric truck, addressing energy efficiency, powertrain constraints, and component durability.",
+
+        "I had the opportunity to present our team's solution at the congress alongside my colleague Suyong Park. It was a valuable experience to exchange ideas with leading researchers in control engineering from around the world."
+      ],
+
+      gallery: [
+        {
+          src: "assets/ECCV1.jpg",
+          alt: "Presenting at the IFAC 2023 ECCV Control Benchmark",
+          caption: "Presenting our team's control strategy at IFAC World Congress 2023."
+        }
+      ]
+    },
+
+
   ],
   
   publications: [
