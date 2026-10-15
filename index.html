@@ -9,8 +9,22 @@
   <title>Sanghyeon Nam · Robotics Researcher</title>
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css">
-  <script src="site-data.js" defer></script>
-  <script src="script.js" defer></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const version = Date.now();
+  
+      const dataScript = document.createElement("script");
+      dataScript.src = "site-data.js?v=" + version;
+  
+      dataScript.onload = () => {
+        const appScript = document.createElement("script");
+        appScript.src = "script.js?v=" + version;
+        document.body.appendChild(appScript);
+      };
+  
+      document.body.appendChild(dataScript);
+    });
+  </script>
 </head>
 <body>
   <a class="skip-link" href="#about">Skip to content</a>
