@@ -61,26 +61,28 @@ researchHighlights: [
   
   
   news: [
+
     {
       id: "james-cain-award-2026",
       date: "Oct 08, 2026",
       title: "Selected as a Recipient of the James J. Cain ’51 Graduate Student Award!",
-      excerpt: "Honored to receive the James J. Cain ’51 Graduate Student Award from Texas A&M University in recognition of my graduate achievements.",
+      excerpt: "Honored to receive the James J. Cain ’51 Graduate Student Award from the Department of Mechanical Engineering at Texas A&M University.",
 
       image: "assets/award.png",
       imageAlt: "James J. Cain ’51 Graduate Student Award",
-      imageCaption: "James J. Cain ’51 Graduate Student Award at Texas A&M University.",
+      imageCaption: "James J. Cain ’51 Graduate Student Award, Department of Mechanical Engineering, Texas A&M University.",
 
       content: [
-        "I am honored to have been selected as a recipient of the James J. Cain ’51 Graduate Student Award at Texas A&M University.",
+        "I am honored to have been selected as a recipient of the James J. Cain ’51 Graduate Student Award by the Department of Mechanical Engineering at Texas A&M University.",
 
-        "Receiving this award is a meaningful milestone in my Ph.D. journey. It is especially encouraging to have my efforts and contributions recognized as I continue pursuing research in autonomous robotics, perception, and intelligent navigation systems.",
+        "This recognition is a meaningful milestone in my Ph.D. journey and motivates me to continue advancing my research in robotics, model predictive control, and intelligent autonomous systems.",
 
-        "I sincerely appreciate the guidance and support of my advisor, collaborators, and colleagues throughout my research journey. This recognition further motivates me to continue advancing robotics research and contributing to the field."
+        "I sincerely appreciate the guidance and support of my advisor, collaborators, and colleagues throughout my research journey. I am truly grateful for this recognition."
       ],
 
       gallery: []
     },
+
 
 
     {
