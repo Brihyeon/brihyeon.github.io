@@ -31,7 +31,7 @@ window.SITE_DATA = {
     googleScholar: "https://scholar.google.com/citations?user=uCxN_g0AAAAJ&hl=ko", // Full URL
     github: "", // Full URL
     linkedin: "https://www.linkedin.com/in/snam01", // Full URL
-    cv: "CV.pdf" // e.g., "assets/CV.pdf"
+    cv: "assets/CV.pdf" //
   },
   // ========================================================
   // 1. Editable news posts, thumbnails and photo galleries
