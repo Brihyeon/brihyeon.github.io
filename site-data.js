@@ -14,7 +14,7 @@ window.SITE_DATA = {
   location: ["College Station, Texas", "United States"],
   photo: "assets/Profile.jpeg",
   introduction: [
-    "Hello, I’m Sanghyeon Nam, a Ph.D. researcher in Mechanical Engineering at Texas A&M University.",
+    "Hello, I’m Sanghyeon Nam, a Ph.D. student in Mechanical Engineering at Texas A&M University.",
 
     "My research focuses on model predictive control (MPC) and intelligent control for robotic systems. I am particularly interested in combining model-based optimization with learning-based approaches to develop robust, adaptive, and reliable control strategies for mobile robots and robotic manipulators."
   ],
@@ -43,6 +43,23 @@ window.SITE_DATA = {
   // content: full article, with one paragraph per array item
   // gallery: optional additional photos, each with src, alt, and caption
   // The two entries below are EXAMPLES — replace their text and SVG images.
+  
+researchHighlights: [
+  {
+    src: "assets/Sparse_full.gif",
+    alt: "Autonomous field robot navigation",
+    caption: "Autonomous Field Robot Navigation"
+  },
+  {
+    src: "assets/Cotton_Lidar_full.gif",
+    alt: "2D LiDAR point cloud visualization",
+    caption: "2D LiDAR Point Cloud Visualization"
+  }
+],
+
+  
+  
+  
   news: [
     {
       id: "james-cain-award-2026",
