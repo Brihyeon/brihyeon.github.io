@@ -14,17 +14,18 @@ window.SITE_DATA = {
   location: ["College Station, Texas", "United States"],
   photo: "assets/Profile.jpeg",
   introduction: [
-    "Hello, I’m Sanghyeon Nam. I’m a robotics researcher at Texas A&M University, working on autonomous navigation and decision-making for mobile robots in challenging real-world environments.",
-    "My research focuses on reliable perception, planning, and control under sensing uncertainty."
+    "Hello, I’m Sanghyeon Nam, a Ph.D. researcher in Mechanical Engineering at Texas A&M University.",
+
+    "My research focuses on model predictive control (MPC) and intelligent control for robotic systems. I am particularly interested in combining model-based optimization with learning-based approaches to develop robust, adaptive, and reliable control strategies for mobile robots and robotic manipulators."
   ],
   researchInterests: [
-    "Autonomous mobile robots and field robotics",
-    "LiDAR–IMU perception and localization",
-    "Robust motion planning and model predictive control",
-    "Uncertainty-aware decision-making and multi-robot systems"
+    "Model Predictive Control (MPC) and Optimal Control",
+    "Learning-Based and Adaptive Control",
+    "Autonomous Mobile Robotics and Navigation",
+    "Robotic Manipulation and Motion Planning"
   ],
-  advisor: "Dr. Kiju Lee", // Optional: e.g., "Prof. Example Name"
-  advisorUrl: "", // Optional: full https:// URL
+  advisor: "Dr. Kiju Lee",
+  advisorUrl: "https://art.engr.tamu.edu/", // Optional: full https:// URL
   links: {
     email: "snam@tamu.edu", // e.g., "you@tamu.edu"
     googleScholar: "https://scholar.google.com/citations?user=uCxN_g0AAAAJ&hl=ko", // Full URL
