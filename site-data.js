@@ -49,7 +49,7 @@ window.SITE_DATA = {
       title: "Selected as a Recipient of the James J. Cain ’51 Graduate Student Award!",
       excerpt: "Honored to receive the James J. Cain ’51 Graduate Student Award from Texas A&M University in recognition of my graduate achievements.",
 
-      image: "assets/award.jpeg",
+      image: "assets/award.png",
       imageAlt: "James J. Cain ’51 Graduate Student Award",
       imageCaption: "James J. Cain ’51 Graduate Student Award at Texas A&M University.",
 
