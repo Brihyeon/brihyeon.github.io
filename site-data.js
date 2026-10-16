@@ -62,6 +62,28 @@ researchHighlights: [
   
   news: [
 
+
+    {
+      id: "phd-qualifying-exam-2026",
+      date: "Oct 16, 2026",
+      title: "Passed My Ph.D. Qualifying Exam!",
+      excerpt: "Successfully passed my Ph.D. qualifying examination in Mechanical Engineering at Texas A&M University.",
+
+      image: "assets/Qual.png",
+      imageAlt: "Ph.D. Qualifying Examination",
+      imageCaption: "Celebrating a milestone in my Ph.D. journey at Texas A&M University.",
+
+      content: [
+        "I am pleased to share that I successfully passed my Ph.D. qualifying examination in the Department of Mechanical Engineering at Texas A&M University.",
+
+        "This marks an important milestone in my doctoral journey, and I look forward to continuing my research in robotics and advanced control systems."
+      ],
+
+      gallery: []
+    },
+
+
+
     {
       id: "james-cain-award-2026",
       date: "Oct 08, 2026",
