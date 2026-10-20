@@ -27,7 +27,7 @@
   // ========================================================
   $("first-name").textContent = data.highlightName || data.name;
   $("last-name").textContent = data.remainingName || "";
-  document.title = `${data.name} · ${data.role || "Researcher"}`;
+  document.title = "Sanghyeon Nam | Robotics & MPC Researcher | Texas A&M University";
   const metaDescription = document.querySelector('meta[name="description"]');
   if (metaDescription) metaDescription.content = `${data.name} — ${data.role || "Researcher"} at ${data.affiliation || ""}. Research, news, and publications.`;
 
