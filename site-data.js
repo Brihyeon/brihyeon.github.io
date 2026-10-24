@@ -102,7 +102,13 @@ researchHighlights: [
         "I sincerely appreciate the guidance and support of my advisor, collaborators, and colleagues throughout my research journey. I am truly grateful for this recognition."
       ],
 
-      gallery: []
+      gallery: [
+        {
+          src: "assets/award_1.png",
+          alt: "Receiving the James J. Cain ’51 Graduate Student Award",
+          caption: "Receiving the James J. Cain ’51 Graduate Student Award at Texas A&M University."
+        }
+      ]
     },
 
 
