@@ -108,6 +108,13 @@ researchHighlights: [
           alt: "Receiving the James J. Cain ’51 Graduate Student Award",
           caption: "Receiving the James J. Cain ’51 Graduate Student Award at Texas A&M University."
         }
+
+        {
+          src: "assets/Award_Ad.jpg",
+          alt: "Receiving the James J. Cain ’51 Graduate Student Award",
+          caption: "Photo with my advisor, Dr. Kiju Lee"
+        }
+
       ]
     },
 
