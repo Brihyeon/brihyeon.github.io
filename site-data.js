@@ -44,18 +44,20 @@ window.SITE_DATA = {
   // gallery: optional additional photos, each with src, alt, and caption
   // The two entries below are EXAMPLES — replace their text and SVG images.
   
+
 researchHighlights: [
   {
     src: "assets/Sparse_full.gif",
-    alt: "Autonomous field robot navigation",
-    caption: "Autonomous Field Robot Navigation"
+    alt: "Field navigation using only 2D LiDAR and IMU",
+    caption: "Autonomous Field Navigation Using 2D LiDAR and IMU"
   },
   {
     src: "assets/Cotton_Lidar_full.gif",
-    alt: "2D LiDAR point cloud visualization",
-    caption: "2D LiDAR Point Cloud Visualization"
+    alt: "2D LiDAR point cloud visualization in weedy field conditions",
+    caption: "2D LiDAR Point Cloud Visualization in Weedy Field Conditions"
   }
 ],
+
 
   
   
